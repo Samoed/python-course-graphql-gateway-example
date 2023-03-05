@@ -8,7 +8,8 @@ class PlacesService:
     Сервис для работы с данными о любимых местах.
     """
 
-    def get_places(self) -> list[PlaceModel]:
+    @staticmethod
+    def get_places() -> list[PlaceModel]:
         """
         Получение списка любимых мест.
 
@@ -32,5 +33,15 @@ class PlacesService:
                     )
                     for place in data.get("data", [])
                 ]
-
         return result
+
+    @staticmethod
+    def get_place(place_id: int) -> PlaceModel | None:
+        """
+        Получение информации о любимом месте.
+
+        :param place_id: Идентификатор любимого места.
+        :return:
+        """
+        result = {place.id: place for place in PlacesService.get_places()}
+        return result.get(place_id, None)

@@ -8,7 +8,8 @@ class CountriesService:
     Сервис для работы с данными о странах.
     """
 
-    def get_countries(self) -> list[CountryModel]:
+    @staticmethod
+    def get_countries() -> list[CountryModel]:
         """
         Получение списка стран.
 
