@@ -111,7 +111,9 @@ class Query(graphene.ObjectType):
 
     @staticmethod
     def resolve_place(
-        parent: Optional[dict], info: ResolveInfo, place_id: int
+        parent: Optional[dict],  # pylint: disable=unused-argument
+        info: ResolveInfo,  # pylint: disable=unused-argument
+        place_id: int,
     ) -> PlaceModel:
         return PlacesService().get_place(place_id)
 

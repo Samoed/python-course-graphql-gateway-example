@@ -1,4 +1,5 @@
 import json
+import os
 
 from models.places import PlaceModel
 
@@ -17,7 +18,10 @@ class PlacesService:
         """
 
         result = []
-        with open("fixtures/places.json", encoding="utf-8") as file:
+        places_file = "fixtures/places.json"
+        base_dir = os.path.dirname(os.path.dirname(__file__))
+        places_file = os.path.join(base_dir, places_file)
+        with open(places_file, encoding="utf-8") as file:
             if data := json.load(file):
                 result = [
                     PlaceModel(
