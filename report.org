@@ -1,0 +1,7 @@
+#+title: Report
+* GraphQL
+[[file:docs/img/2023-03-05_16-56.png]]
+
+* Make all
+[[file:docs/img/2023-03-05_18-39.png]]
+[[file:docs/img/2023-03-05_18-40.png]]

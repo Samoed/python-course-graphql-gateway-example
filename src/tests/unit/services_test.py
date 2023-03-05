@@ -4,6 +4,9 @@ from services import CountriesService, NewsService, PlacesService
 
 
 def test_read_news():
+    """
+    Тестирование сервиса новостей
+    """
     news = NewsService.get_news()
     assert len(news) == 3
     assert news.keys() == {"ru", "ie", "rs"}
@@ -33,6 +36,9 @@ def test_read_news():
 
 
 def test_read_places():
+    """
+    Тестирование сервиса мест
+    """
     places = PlacesService.get_places()
     assert len(places) == 6
 
@@ -49,6 +55,9 @@ def test_read_places():
 
 
 def test_read_place():
+    """
+    Тестирование сервиса мест
+    """
     place = PlacesService.get_place(1)
     assert place.id == 1
     assert place.city == "Perm"
@@ -62,6 +71,9 @@ def test_read_place():
 
 
 def test_read_countries():
+    """
+    Тестирование сервиса стран
+    """
     countries = CountriesService.get_countries()
     assert len(countries) == 4
 
