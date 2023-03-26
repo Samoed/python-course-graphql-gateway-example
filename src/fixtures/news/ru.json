@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Спорт-Экспресс",
+      "title": "«Приходим с разминки перед «Амкалом» — а Овечкин уже «мертвый». Доктор дал ему нашатырь. А потом он ... - Спорт-Экспресс",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiyAFodHRwczovL3d3dy5zcG9ydC1leHByZXNzLnJ1L2Zvb3RiYWxsL3JmcGwvcmV2aWV3cy9pZ29yLWxlc2NodWstaW50ZXJ2eXUtdnJhdGFyeWEtbW9za292c2tvZ28tZGluYW1vLW9iLW92ZWNoa2luZS1yYWJvdGUtcy1jaGVyY2hlc292eW0tdnphaW1vb3Rub3NoZW5peWFoLXMtc2h1bmlueW0tcHJpa2x5dWNoZW5peWFoLXphaGFyeWFuYS0yMDQ1MjQwL9IBygFodHRwczovL20uc3BvcnQtZXhwcmVzcy5ydS9mb290YmFsbC9yZnBsL3Jldmlld3MvaWdvci1sZXNjaHVrLWludGVydnl1LXZyYXRhcnlhLW1vc2tvdnNrb2dvLWRpbmFtby1vYi1vdmVjaGtpbmUtcmFib3RlLXMtY2hlcmNoZXNvdnltLXZ6YWltb290bm9zaGVuaXlhaC1zLXNodW5pbnltLXByaWtseXVjaGVuaXlhaC16YWhhcnlhbmEtMjA0NTI0MC9hbXAv?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T08:00:01Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Liga.net",
+      "title": "Британия: РФ штурмует север Бахмута с трех сторон, ВСУ перебрасывают элитные подразделения - Liga.net",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL25ld3MubGlnYS5uZXQvcG9saXRpY3MvbmV3cy9icml0YW5peWEtcmYtc2h0dXJtdWV0LXNldmVyLWJhaG11dGEtcy10cmVoLXN0b3Jvbi12c3UtcGVyZWJyYXN5dmF5dXQtZWxpdG55ZS1wb2RyYXpkZWxlbml5YdIBhAFodHRwczovL25ld3MubGlnYS5uZXQvYW1wL3BvbGl0aWNzL25ld3MvYnJpdGFuaXlhLXJmLXNodHVybXVldC1zZXZlci1iYWhtdXRhLXMtdHJlaC1zdG9yb24tdnN1LXBlcmVicmFzeXZheXV0LWVsaXRueWUtcG9kcmF6ZGVsZW5peWE?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T07:51:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Коммерсантъ",
+      "title": "Valve включила трассировку лучей на первой игре для Steam Deck - Коммерсантъ",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiJWh0dHBzOi8vd3d3LmtvbW1lcnNhbnQucnUvZG9jLzU4NjE4NzfSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T07:48:51Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Коммерсантъ",
+      "title": "Китай в 2023 году увеличит расходы на оборону - Коммерсантъ",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiJWh0dHBzOi8vd3d3LmtvbW1lcnNhbnQucnUvZG9jLzU4NjE4NTXSASVodHRwczovL3d3dy5rb21tZXJzYW50LnJ1L2FtcC81ODYxODU1?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2023-03-04T07:17:42Z",
+      "content": null
+    }
+  ]
+}
